@@ -1,0 +1,119 @@
+body{
+ font-family: 'Open Sans',sans-serif;   
+}
+#nav-bar{
+    position: fixed;
+    top:0;
+    display: inline;
+    padding-left: 50px;
+    padding-right:50px;
+    color: white;
+    margin-top: 10px;
+    width:100%;
+    /* visibility: hidden; */
+}
+.logo img{
+    float: left;
+    width: 150px;
+    margin: 15px;
+}
+.nav-links{
+    float: right;
+    font-family: 'Lato';
+    font-weight: 500;
+    padding: 30px;
+}
+header{
+    background-image: url("./wideopen-icons/img/wot-masthead-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    justify-content: center;
+}
+ul, li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.nav-links li:hover{
+    border-bottom-style: solid;
+    border-bottom-color: #BDD436;
+    border-bottom-width: 5px;
+
+}
+a:visited{
+    color: white;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:center;
+    margin: 5px;
+    padding: 10px;
+}
+h1{
+    font-size: 155px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Open Sans';
+    line-height: 140px;
+    position: relative;
+    margin: 20px;
+}
+h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Open Sans';
+    position: absolute;
+    left: 380px;
+}
+h4{
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Open Sans';
+}
+ .learn-btn{
+    display: flex;
+    text-align:center;
+    background-color: #BDD436;
+    border-radius: 25px;
+    padding: 15px 100px 15px 100px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.learn-btn:hover{
+    background-color:#d3ea3a;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container p{
+    margin: 30px 170px 30px 170px;
+    line-height: 36px;
+    text-align: center;
+}
+.first{
+    background: #F0F0F0;
+    font-size: 24px;
+    color: #6a787c;
+}
+.orange{
+    color: #FF803A;
+}
+.green{
+    color: #C8E23A;    
+}
